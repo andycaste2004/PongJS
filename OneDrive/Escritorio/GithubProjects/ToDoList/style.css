@@ -1,0 +1,44 @@
+#gameContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #a28089;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#current_date {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.lineContainer {
+    width: 100%;
+  }
+  
+  #to_do {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    text-align: left;
+  }
+  
+  .lineItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .lineItem hr {
+    flex-grow: 1;
+    height: 1px;
+    border: none;
+    background-color: black;
+    margin: 0;
+  }
+  
