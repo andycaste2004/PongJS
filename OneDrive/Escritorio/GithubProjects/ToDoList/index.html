@@ -8,50 +8,53 @@
     </head>
     <body>
         <div id="gameContainer">
-            <div id="gameBoard" width = 300 height = 300>
-                <div id="current_date">
-                    <script>
-                      const date = new Date();
-                      const year = date.getFullYear();
-                      const monthNames = [
-                        "January", "February", "March", "April", "May", "June",
-                        "July", "August", "September", "October", "November", "December"
-                      ];
-                      const month = monthNames[date.getMonth()];
-                      const day = date.getDate();
-                  
-                      document.getElementById("current_date").innerHTML = `${month} ${day}, ${year}`;
-                    </script>
-                </div>                  
+            <div id="date"></div>
+            <div id="gameBoard" width = 300 height = 300>                 
                 <div class="lineContainer">
                     <div id="to_do">To do:</div>
                     <div class="lineItem">
                         <input type="checkbox" name="checkbox1">
-                        <hr>
-                    </div>
-                    <div class="lineItem">
-                        <input type="checkbox" name="checkbox2">
-                        <hr>
-                    </div>
-                    <div class="lineItem">
-                        <input type="checkbox" name="checkbox3">
-                        <hr>
-                    </div>
+                        <input type="text" class="taskInput">
+                      </div>                      
                     <div class="lineItem">
                         <input type="checkbox" name="checkbox1">
-                        <hr>
-                    </div>
-                    <div class="lineItem">
-                        <input type="checkbox" name="checkbox2">
-                        <hr>
-                    </div>
-                    <div class="lineItem">
-                        <input type="checkbox" name="checkbox3">
-                        <hr>
-                    </div>
+                        <input type="text" class="taskInput">
+                      </div>                      
+                      <div class="lineItem">
+                        <input type="checkbox" name="checkbox1">
+                        <input type="text" class="taskInput">
+                      </div>
+                      <div class="lineItem">
+                        <input type="checkbox" name="checkbox1">
+                        <input type="text" class="taskInput">
+                      </div>
+                      <div class="lineItem">
+                        <input type="checkbox" name="checkbox1">
+                        <input type="text" class="taskInput">
+                      </div>
+                      <div class="lineItem">
+                        <input type="checkbox" name="checkbox1">
+                        <input type="text" class="taskInput">
+                      </div>
+                      <div class="lineItem">
+                        <input type="checkbox" name="checkbox1">
+                        <input type="text" class="taskInput">
+                      </div> 
+                      <div class="lineItem">
+                        <input type="checkbox" name="checkbox1">
+                        <input type="text" class="taskInput">
+                      </div> 
+                      <div class="lineItem">
+                        <input type="checkbox" name="checkbox1">
+                        <input type="text" class="taskInput">
+                      </div> 
+                      <div class="lineItem">
+                        <input type="checkbox" name="checkbox1">
+                        <input type="text" class="taskInput">
+                      </div>                                                                                         
                 </div>
             </div>
         </div>
-        <script href="index.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
