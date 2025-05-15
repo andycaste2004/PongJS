@@ -3,7 +3,7 @@
   margin: 50px auto;
   padding: 20px;
   text-align: center;
-  background-color: #f0f4f8; /* soft bluish-gray */
+  background-color: white; /* soft bluish-gray */
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* stronger shadow */
 }
